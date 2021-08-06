@@ -1,4 +1,5 @@
 class Car:
+    """ Car class to create Car objects """
 
     def __init__(self, make, model, year, color):
         self.make = make
@@ -36,5 +37,10 @@ class ElectricCar(Car):
 
 class Battery:
 
-    def __init__(self, battery_size = 100):
+    def __init__(self, battery_size=100):
         self.battery_size = battery_size
+
+
+def inc(x):
+    """This is a function that takes a number and increments it by 1 """
+    return x + 1
